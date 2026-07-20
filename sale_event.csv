@@ -1,0 +1,7 @@
+Sale_Event_ID,Sale_Event_Name,Campaign_Type,Is_Promotion
+EVT_001,Black Friday,Promotional,Yes
+EVT_002,Boxing Day Sale,Holiday,Yes
+EVT_003,Cyber Monday,Promotional,Yes
+EVT_004,January Sale,Seasonal,Yes
+EVT_005,Standard Period,Standard ,No
+EVT_006,Summer Sale,Seasonal,Yes

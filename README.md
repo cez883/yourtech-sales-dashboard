@@ -1,64 +1,122 @@
-# YourTech.com — Sales Performance Dashboard (Power BI)
+# Sales Analytics Dashboard for a Multi-Channel Electronics Retailer (Power BI)
 
 ## Executive Summary
 
-Built a 6-page Power BI dashboard for YourTech.com, a fictional multi-channel electronics retailer, to give sales, marketing, and product stakeholders a single place to answer their recurring questions — instead of relying on scattered spreadsheet exports.
+The project presents a six-page Power BI dashboard developed for **YourTech.com**, a fictional multi-channel electronics retailer. The report provides a single source of truth for analysing sales performance, marketing campaigns, customer behaviour, and product profitability.
 
-<img width="1955" height="1096" alt="image" src="https://github.com/user-attachments/assets/c63be6af-e117-4a25-966d-ca0634114d0b" />
+The dashboard enables users to move from high-level KPIs to detailed customer-level analysis through interactive filtering and drillthrough functionality.
+
+<img width="1952" height="1096" alt="image" src="https://github.com/user-attachments/assets/7e2593b9-83fb-4d09-8611-558ab6b18132" />
 
 ## Business Problem
 
-Stakeholders across the business kept asking the same recurring questions, each pulling data a different way:
+Different business departments relied on separate spreadsheet exports and manual reporting, resulting in inconsistent answers to the same business questions.
 
-- **Sales:** How is revenue trending, and which channels and categories drive it?
-- **Marketing:** Which campaigns pay off, and do bigger discounts actually help?
-- **Customer:** Who are our customers, and how does spending differ by age and gender?
-- **Product/merchandising:** Which products and brands are most profitable?
-- **Support/account management:** What is a specific customer's full order history?
+The objective was to build a single interactive report capable of answering key business questions for Sales, Marketing, Product Management, and Customer Support teams.
 
-The goal was one report that answers all of these consistently, with the ability to drill from a summary view down to an individual customer's order history.
+<img width="1951" height="1094" alt="image" src="https://github.com/user-attachments/assets/e5466e5d-fb12-4bbb-890e-f40c065142aa" />
+
+## Dashboard Pages
+
+## 1. Sales Performance
+Provides an executive overview of overall business performance including:
+- KPI summary
+- Monthly sales trend
+- Sales by channel
+- Sales by category
+- Year-over-Year growth by category
+- Sales by promotional event
+
+## 2. Campaign Performance
+Analyses promotional effectiveness through:
+- Campaign revenue contribution
+- Campaign sales and orders
+- Campaign profitability
+- Average discount
+- Revenue comparison by campaign and year
+- Sales channel distribution by campaign
+
+## 3. Customer Insights
+Explores customer behaviour by analysing:
+- Customer demographics
+- Revenue by age group
+- Average order value
+- Revenue by gender
+- Product preferences by age group
+- Returning Customer Rate
+- Top customers
+
+## 4. Product & Brand Insights
+Evaluates commercial performance of products and brands:
+- Top products
+- Brand performance
+- Revenue and Gross Profit by category
+- Gross Margin comparison
+- Category performance matrix
+
+## 5. Customer Order Details (Drillthrough)
+Provides customer-level analysis including:
+- Customer profile
+- Customer Since
+- Lifetime Sales
+- Average Order Value
+- Total Orders
+- Favourite Category
+- Complete purchase history
+
+## 6. Business Questions
+Navigation page linking business questions to the relevant report pages.
+
 
 ## Methodology
 
 1. For the purpose of this project I have created a dataset containing three .csv files: Customers, Sale_Event as well as YourTech_Orders containing over 100k rows of sale transactions data.
-2. I have imported the data into Power BI and used Power Query to clean, transform and prepare data for further analysis
-3. I have crerated a star schema semantic model (`fSales` fact table with `dCustomers`, `dProducts`, `dDate`, `dStores`, `dStaff`, `dSale Event` dimensions) and created relationships between these tables
-4. Built DAX measures for sales, profit, campaign performance, and customer metrics, including time intelligence (YoY, YTD).
-5. Designed 6 report pages, each mapped to a specific set of business questions.
-6. Added a drillthrough page so any customer can be opened directly from a summary table to see their full order history.
-7. Applied conditional formatting (colour-scale heatmap) and consistent slicer behaviour across pages for a smoother user experience.
+2. Imported and transformed raw sales data using Power Query.
+3. Designed a star-schema semantic model consisting of one fact table and six dimension tables.
+4. Created reusable DAX measures for sales, profitability, campaign analysis, customer metrics, and time intelligence (YoY, YTD).
+5. Designed six report pages, each focused on a specific business area.
+6. Implemented drillthrough functionality for customer-level analysis.
+7. Applied consistent navigation, slicers and conditional formatting across the report.
 
 ## Skills
 
 **Power Query:** ETL, data cleaning, locale-aware date parsing
-**DAX:** CALCULATE, RANKX, TOPN, SELECTEDVALUE, time intelligence
-**Power BI:** star-schema data modelling, drillthrough, conditional formatting, slicer design, report UX
+**DAX:** CALCULATE, FILTER, TOPN, MAXX, SUMX, DISTINCTCOUNT, COUNTROWS, time intelligence
+**Data Modelling:** star-schema, dimension modelling, date table design, 
 
-## Report Pages
+## Data Model
 
-| Page | Business questions it answers |
-|---|---|
-| **Sales Performance** | Overall sales trend, channel mix, category mix, top products |
-| **Campaign Performance** | Which promotions drive sales/profit, and whether discounts pay off |
-| **Customer Insights** | Who buys, spending patterns by age and gender, top customers |
-| **Product & Brand Insights** | Top products, brands, and category profitability |
-| **Customer Order Details** *(drillthrough)* | Full order history and lifetime value for a single customer |
-| **Business Questions** | Index page mapping each question to the right report page |
+The report is built using a **Star Schema** consisting of:
+
+**Fact Table**
+- fSales
+
+**Dimension Tables**
+- dCustomers
+- dProducts
+- dDate
+- dStores
+- dStaff
+- dSale Event
+
+This structure improves performance and follows Power BI modelling best practices.
+
+<img width="1746" height="1158" alt="image" src="https://github.com/user-attachments/assets/1d7ac81b-7bd4-4788-a6f7-af027b38ee11" />
 
 ## Key Insights
 
-<img width="1952" height="1094" alt="image" src="https://github.com/user-attachments/assets/5763a3bb-9ee4-4dd2-9f03-c1cd3fd8234e" />
+The dashboard enables business users to:
 
-- **In-Store is the leading sales channel**, followed by Website and Mobile App.
-- **Mobile Phones is the top-performing product category** by revenue, ahead of Fridge Freezers and Laptops.
-- **Standard (non-campaign) periods drive the majority of annual revenue** — promotional campaigns like Black Friday and Summer Sale are meaningful but secondary contributors.
-- **Spending peaks in the 30-44 and 45-59 age groups**, both in average order value and total revenue.
+- Monitor overall sales performance through KPI tracking and Year-over-Year growth analysis.
+- Identify which sales channels, product categories and brands generate the highest revenue and profit.
+- Evaluate the effectiveness of promotional campaigns including Black Friday, Summer Sale and Boxing Day.
+- Analyse customer demographics, purchasing behaviour and repeat customer rates.
+- Review complete customer purchase history and lifetime value through drillthrough functionality.
 
 ## Next Steps
 
 1. Add row-level security so store managers only see their own store's data.
-2. Extend customer analysis with retention/tenure metrics based on first purchase date.
-3. Publish to Power BI Service with scheduled data refresh.
+2. Enhance customer retention analysis with cohort and repeat purchase trends.
 
 ---
 *Built on a synthetic dataset designed to resemble a real multi-channel electronics retailer, for portfolio purposes only.*

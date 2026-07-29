@@ -73,7 +73,7 @@ Provides customer-level analysis including:
 2. Imported and transformed raw sales data using Power Query.
 3. Designed a star-schema semantic model consisting of one fact table and six dimension tables.
 4. Created reusable DAX measures for sales, profitability, campaign analysis, customer metrics, and time intelligence (YoY, YTD).
-5. Designed six report pages, each focused on a specific business area.
+5. Designed five report pages, each focused on a specific business area.
 6. Implemented drillthrough functionality for customer-level analysis.
 7. Applied consistent navigation, slicers and conditional formatting across the report.
 

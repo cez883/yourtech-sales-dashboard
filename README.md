@@ -17,8 +17,8 @@ The objective was to build a single interactive report capable of answering key 
 
 ## Dashboard Pages
 
-## 1. Sales Performance
-Provides an executive overview of overall business performance including:
+## 1. Sales Performance  
+Executive overview of sales trends, revenue distribution, profitability, and year-over-year growth across products and sales channels:
 - KPI summary
 - Monthly sales trend
 - Sales by channel
@@ -66,13 +66,13 @@ Provides customer-level analysis including:
 - Favourite Category
 - Complete purchase history
 
-## 6. Business Questions
+## 6. Business Questions  
 Navigation page linking business questions to the relevant report pages.
 
 
 ## Methodology
 
-1. For the purpose of this project I have created a dataset containing three .csv files: Customers, Sale_Event as well as YourTech_Orders containing over 100k rows of sale transactions data.
+1. For the purpose of this project I have designed and generated a synthetic retail dataset consisting of over 100k sales transactions together with Customer and Sale Event dimension tables.
 2. Imported and transformed raw sales data using Power Query.
 3. Designed a star-schema semantic model consisting of one fact table and six dimension tables.
 4. Created reusable DAX measures for sales, profitability, campaign analysis, customer metrics, and time intelligence (YoY, YTD).
@@ -82,9 +82,9 @@ Navigation page linking business questions to the relevant report pages.
 
 ## Skills
 
-**Power Query:** ETL, data cleaning, locale-aware date parsing
-**DAX:** CALCULATE, FILTER, TOPN, MAXX, SUMX, DISTINCTCOUNT, COUNTROWS, time intelligence
-**Data Modelling:** star-schema, dimension modelling, date table design, 
+**Power Query:** ETL, data cleaning, locale-aware date parsing  
+**DAX:** CALCULATE, FILTER, TOPN, MAXX, SUMX, DISTINCTCOUNT, COUNTROWS, time intelligence  
+**Data Modelling:** star-schema semantic model, dimension modelling, date table design, KPI design, drillthrough, conditional formatting  
 
 ## Data Model
 

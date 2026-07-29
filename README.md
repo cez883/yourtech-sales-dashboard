@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-The project presents a six-page Power BI dashboard developed for **YourTech.com**, a fictional multi-channel electronics retailer. The report provides a single source of truth for analysing sales performance, marketing campaigns, customer behaviour, and product profitability.
+The project presents a five-page Power BI dashboard developed for **YourTech.com**, a fictional multi-channel electronics retailer. The report provides a single source of truth for analysing sales performance, marketing campaigns, customer behaviour, and product profitability.
 
 The dashboard enables users to move from high-level KPIs to detailed customer-level analysis through interactive filtering and drillthrough functionality.
 
@@ -14,6 +14,7 @@ The dashboard enables users to move from high-level KPIs to detailed customer-le
 The objective was to build a single interactive report capable of answering key business questions for Sales, Marketing, Product Management, and Customer Support teams so the departments don't have to rely on separate spreadsheet exports and manual reporting. 
 
 <img width="1951" height="1094" alt="image" src="https://github.com/user-attachments/assets/e5466e5d-fb12-4bbb-890e-f40c065142aa" />
+
 
 ## Dashboard Pages
 
@@ -55,7 +56,6 @@ Evaluates commercial performance of products and brands:
 
 <img width="1954" height="1095" alt="image" src="https://github.com/user-attachments/assets/4a0bb0c1-ab78-4904-9576-23d47caa496d" />
 
-
 ## 5. Customer Order Details (Drillthrough)
 Provides customer-level analysis including:
 - Customer profile
@@ -65,9 +65,6 @@ Provides customer-level analysis including:
 - Total Orders
 - Favourite Category
 - Complete purchase history
-
-## 6. Business Questions  
-Navigation page linking business questions to the relevant report pages.
 
 
 ## Methodology
@@ -80,11 +77,13 @@ Navigation page linking business questions to the relevant report pages.
 6. Implemented drillthrough functionality for customer-level analysis.
 7. Applied consistent navigation, slicers and conditional formatting across the report.
 
+
 ## Skills
 
 **Power Query:** ETL, data cleaning, locale-aware date parsing  
 **DAX:** CALCULATE, FILTER, TOPN, MAXX, SUMX, DISTINCTCOUNT, COUNTROWS, time intelligence  
 **Data Modelling:** star-schema semantic model, dimension modelling, date table design, KPI design, drillthrough, conditional formatting  
+
 
 ## Data Model
 
@@ -104,6 +103,7 @@ The report is built using a **Star Schema** consisting of:
 This structure improves performance and follows Power BI modelling best practices.
 
 <img width="1746" height="1158" alt="image" src="https://github.com/user-attachments/assets/1d7ac81b-7bd4-4788-a6f7-af027b38ee11" />
+
 
 ## Key Insights
 

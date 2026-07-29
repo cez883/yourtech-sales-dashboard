@@ -11,9 +11,7 @@ The dashboard enables users to move from high-level KPIs to detailed customer-le
 
 ## Business Problem
 
-Different business departments relied on separate spreadsheet exports and manual reporting, resulting in inconsistent answers to the same business questions.
-
-The objective was to build a single interactive report capable of answering key business questions for Sales, Marketing, Product Management, and Customer Support teams.
+The objective was to build a single interactive report capable of answering key business questions for Sales, Marketing, Product Management, and Customer Support teams so the departments don't have to rely on separate spreadsheet exports and manual reporting. 
 
 <img width="1951" height="1094" alt="image" src="https://github.com/user-attachments/assets/e5466e5d-fb12-4bbb-890e-f40c065142aa" />
 
@@ -107,36 +105,43 @@ This structure improves performance and follows Power BI modelling best practice
 ## Key Insights
 
 **Overall business health**
+
 **Total Sales: £20.38M** | 62.5K orders | 13.9K customers who placed at least one order | AOV: £326
 Gross Margin: 17.2% overall (£3.51M gross profit)
 
 **Growth is slowing down**
+
 2024: **+31.5%** year over year
 2025: **+28.9%**
 2026: **+85.1%** — and only because of a heavy TV-category push in Q2 because of the FIFA World Cup - without it, the year would be essentially flat or negative
 2026 only has data through July (7 months) — June alone accounts for £2.21M of the £6.23M available for the year!
 
 **TVs: the biggest category, but the weakest margin**
+
 TVs = **£4.10M (20.1% of total sales)** — the largest category
 TV margin: **12.8%** — the lowest of all 16 categories (compare: Computer Accessories 29.5%, Smart Tech 26.9%, Fans 23.5%)
 TV growth: £385K (2023) → £463K (2024) → £577K (2025) → **£2.67M (2026, only 7 months!)** — 2026 growth a direct result of the FIFA World Cup
 **Business takeaway:** revenue growth driven mainly by the lowest-margin category is a warning sign, not a win — 2026 is growing in volume but losing profitability compared to 2024/2025.
 
 **Sales channels**
+
 **Website now leads (41.5%)**, ahead of In-Store (33%) and Mobile App (25.5%)
 This reverses the earlier channel order, where In-Store led — a direct consequence of lots of TV orders through our Website/Mobile App
 
 **Promotional campaigns**
+
 **Standard Period = 75.5% of all sales** — day-to-day business, not campaigns, drives the result
 Among promotions: Black Friday keeps growing every year and in 2025 saw the highest total sales value of £672K followed by the summer Sale with £592K
 
 **Customers**
+
 **79% of customers who ever ordered came back for another order** — a strong loyalty signal across the business
 The **30-44 age group drives the most revenue** (£8.1M, 40% of total) and has a high AOV (£333)
 The **60+ group has the highest average order value** (£349) despite the fewest orders — a small but high-value segment
 Gender split is fairly even: Male £10.62M vs. Female £9.76M (52%/48%)
 
 **Stores and brands**
+
 Leeds, Birmingham, NDC and Manchester each generate ~£3.6-3.7M — a very even result
 Milton Keynes and London Battersea are slightly behind with ~£2.8M each — solid, but still about 25% behind the other locations
 **Samsung leads all brands** (£2.79M), ahead of Sony (£2.29M) and LG (£1.91M)

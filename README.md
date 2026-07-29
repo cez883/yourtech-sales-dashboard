@@ -53,6 +53,9 @@ Evaluates commercial performance of products and brands:
 - Gross Margin comparison
 - Category performance matrix
 
+<img width="1954" height="1095" alt="image" src="https://github.com/user-attachments/assets/4a0bb0c1-ab78-4904-9576-23d47caa496d" />
+
+
 ## 5. Customer Order Details (Drillthrough)
 Provides customer-level analysis including:
 - Customer profile

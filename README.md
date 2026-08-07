@@ -115,10 +115,10 @@ This structure improves performance and follows Power BI modelling best practice
 
 **Growth is slowing down**
 
-2024: **+31.5%** year over year  
-2025: **+28.9%**  
-2026: **+85.1%** — and only because of a heavy TV-category push in Q2 because of the FIFA World Cup - without it, the year would be essentially flat or negative  
-2026 only has data through July (7 months) — June alone accounts for £2.21M of the £6.23M available for the year!  
+2024: +31.5% year over year
+2025: +28.9%
+2026: +85.1% — driven almost entirely by a heavy TV-category push in Q2 (tied to a FIFA World Cup promotion). TVs alone accounted for 82% of the entire year's revenue growth — but strip TVs out, and the rest of the business still grew a healthy +17% on its own.
+2026 only has data through July (7 months) — June alone accounts for £2.21M of the £6.23M available for the year!
 
 **TVs: the biggest category, but the weakest margin**
 

@@ -6,7 +6,8 @@ The project presents a five-page Power BI dashboard developed for **YourTech.com
 
 The dashboard enables users to move from high-level KPIs to detailed customer-level analysis through interactive filtering and drillthrough functionality.
 
-<img width="1955" height="1097" alt="image" src="https://github.com/user-attachments/assets/8e06023c-45eb-485a-a762-8b5d45738584" />
+<img width="1950" height="1095" alt="image" src="https://github.com/user-attachments/assets/530f2f83-9cc5-4a2c-8321-e87bce845ee2" />
+
 
 
 ## Business Problem

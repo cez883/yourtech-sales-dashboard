@@ -68,7 +68,7 @@ Provides customer-level analysis including:
 - Favourite Category
 - Complete purchase history
 
-![Customer Order Details](screenshots/05_customer_order_details.png)
+![Customer Order Details](05_drillthrough_customer_order_details.png)
 
 
 ## Methodology

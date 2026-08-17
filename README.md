@@ -34,6 +34,8 @@ Analyses promotional effectiveness through:
 - Revenue comparison by campaign and year
 - Sales channel distribution by campaign
 
+![Campaign Performance](screenshots/02_campaign_performance.png)
+
 ## 3. Customer Insights
 Explores customer behaviour by analysing:
 - Customer demographics
@@ -43,6 +45,8 @@ Explores customer behaviour by analysing:
 - Product preferences by age group
 - Returning Customer Rate
 - Top customers
+
+![Customer Insights](screenshots/03_customer_insights.png)
 
 ## 4. Product & Brand Insights
 Evaluates commercial performance of products and brands:
@@ -64,10 +68,12 @@ Provides customer-level analysis including:
 - Favourite Category
 - Complete purchase history
 
+![Customer Order Details](screenshots/05_customer_order_details.png)
+
 
 ## Methodology
 
-1. For the purpose of this project I have designed and generated a synthetic retail dataset consisting of over 100k sales transactions together with Customer and Sale Event dimension tables.
+1. For the purpose of this project I have designed and generated a synthetic retail dataset consisting of over 60k sales transactions together with Customer and Sale Event dimension tables.
 2. Imported and transformed raw sales data using Power Query.
 3. Designed a star-schema semantic model consisting of one fact table and six dimension tables.
 4. Created reusable DAX measures for sales, profitability, campaign analysis, customer metrics, and time intelligence (YoY, YTD).

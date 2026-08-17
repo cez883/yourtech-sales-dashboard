@@ -6,16 +6,14 @@ The project presents a five-page Power BI dashboard developed for **YourTech.com
 
 The dashboard enables users to move from high-level KPIs to detailed customer-level analysis through interactive filtering and drillthrough functionality.
 
-<img width="1950" height="1095" alt="image" src="https://github.com/user-attachments/assets/530f2f83-9cc5-4a2c-8321-e87bce845ee2" />
-
+screenshots/01_sales_performance.png
 
 
 ## Business Problem
 
 The objective was to build a single interactive report capable of answering key business questions for Sales, Marketing, Product Management, and Customer Support teams so the departments don't have to rely on separate spreadsheet exports and manual reporting. 
 
-<img width="1951" height="1094" alt="image" src="https://github.com/user-attachments/assets/e5466e5d-fb12-4bbb-890e-f40c065142aa" />
-
+screenshots/06_business_questions.png
 
 ## Dashboard Pages
 
@@ -55,7 +53,7 @@ Evaluates commercial performance of products and brands:
 - Gross Margin comparison
 - Category performance matrix
 
-<img width="1954" height="1095" alt="image" src="https://github.com/user-attachments/assets/4a0bb0c1-ab78-4904-9576-23d47caa496d" />
+screenshots/04_product_brand_insights.png
 
 ## 5. Customer Order Details (Drillthrough)
 Provides customer-level analysis including:
@@ -103,8 +101,7 @@ The report is built using a **Star Schema** consisting of:
 
 This structure improves performance and follows Power BI modelling best practices.
 
-<img width="1746" height="1158" alt="image" src="https://github.com/user-attachments/assets/1d7ac81b-7bd4-4788-a6f7-af027b38ee11" />
-
+screenshots/07_star_schema.png
 
 ## Key Insights
 

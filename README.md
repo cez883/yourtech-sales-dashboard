@@ -52,7 +52,7 @@ Evaluates commercial performance of products and brands:
 - Gross Margin comparison
 - Category performance matrix
 
-(screenshots/04_product_brand_insights.png)
+![Product & Brand Insights](screenshots/04_product_brand_insights.png)
 
 ## 5. Customer Order Details (Drillthrough)
 Provides customer-level analysis including:
@@ -100,7 +100,7 @@ The report is built using a **Star Schema** consisting of:
 
 This structure improves performance and follows Power BI modelling best practices.
 
-screenshots/07_star_schema.png
+![Star Schema](screenshots/07_star_schema.png)
 
 ## Key Insights
 

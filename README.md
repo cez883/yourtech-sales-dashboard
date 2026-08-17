@@ -6,14 +6,13 @@ The project presents a five-page Power BI dashboard developed for **YourTech.com
 
 The dashboard enables users to move from high-level KPIs to detailed customer-level analysis through interactive filtering and drillthrough functionality.
 
-screenshots/01_sales_performance.png
-
+![Sales Performance Dashboard](screenshots/01_sales_performance.png)
 
 ## Business Problem
 
 The objective was to build a single interactive report capable of answering key business questions for Sales, Marketing, Product Management, and Customer Support teams so the departments don't have to rely on separate spreadsheet exports and manual reporting. 
 
-screenshots/06_business_questions.png
+![Business Questions](screenshots/06_business_questions.png)
 
 ## Dashboard Pages
 
@@ -53,7 +52,7 @@ Evaluates commercial performance of products and brands:
 - Gross Margin comparison
 - Category performance matrix
 
-screenshots/04_product_brand_insights.png
+(screenshots/04_product_brand_insights.png)
 
 ## 5. Customer Order Details (Drillthrough)
 Provides customer-level analysis including:

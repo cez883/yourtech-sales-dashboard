@@ -6,15 +6,15 @@ The project presents a five-page Power BI dashboard developed for **YourTech.com
 
 The dashboard enables users to move from high-level KPIs to detailed customer-level analysis through interactive filtering and drillthrough functionality.
 
-![Sales Performance Dashboard](screenshots/01_sales_performance.png)
 
 ## Business Problem
 
 The objective was to build a single interactive report capable of answering key business questions for Sales, Marketing, Product Management, and Customer Support teams so the departments don't have to rely on separate spreadsheet exports and manual reporting. 
 
-![Business Questions](screenshots/06_business_questions.png)
 
 ## Dashboard Pages
+
+![Sales Performance Dashboard](screenshots/01_sales_performance.png)
 
 ## 1. Sales Performance  
 Executive overview of sales trends, revenue distribution, profitability, and year-over-year growth across products and sales channels:
@@ -34,8 +34,6 @@ Analyses promotional effectiveness through:
 - Revenue comparison by campaign and year
 - Sales channel distribution by campaign
 
-![Campaign Performance](screenshots/02_campaign_performance.png)
-
 ## 3. Customer Insights
 Explores customer behaviour by analysing:
 - Customer demographics
@@ -46,8 +44,6 @@ Explores customer behaviour by analysing:
 - Returning Customer Rate
 - Top customers
 
-![Customer Insights](screenshots/03_customer_insights.png)
-
 ## 4. Product & Brand Insights
 Evaluates commercial performance of products and brands:
 - Top products
@@ -55,8 +51,6 @@ Evaluates commercial performance of products and brands:
 - Revenue and Gross Profit by category
 - Gross Margin comparison
 - Category performance matrix
-
-![Product & Brand Insights](screenshots/04_product_brand_insights.png)
 
 ## 5. Customer Order Details (Drillthrough)
 Provides customer-level analysis including:
@@ -67,8 +61,6 @@ Provides customer-level analysis including:
 - Total Orders
 - Favourite Category
 - Complete purchase history
-
-![Customer Order Details](screenshots/05_drillthrough_customer_order_details.png)
 
 
 ## Methodology
